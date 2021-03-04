@@ -21,6 +21,7 @@ author: github.com/dropsql[/white]
 
 console = Console()
 console.print(banner)
+
 parser = argparse.ArgumentParser(usage='%(prog)s [option(s)]')
 
 parser.add_argument('-p', '--port', help='set anydesk port (default: 7070)', default=7070, required=False, metavar='', type=int, dest='port')
